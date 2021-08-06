@@ -7,10 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     --lightGrey: #eee;
     --medGrey: #353535;
     --darkGrey: #1c1c1c;
-    --superBigFont: 2.5rem;
-    --bgFont: 1.5rem;
-    --mdFont: 1.2rem;
-    --smFont: 1rem;
+    --superBigFont: 3.5rem;
+    --bgFont: 2.5rem;
+    --mdFont: 1.8rem;
+    --smFont: 1.5rem;
   }
 
   * {
@@ -33,18 +33,18 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Abel', sans-serif;
 
     h1 {
-      font-size: 2rem;
+      font-size: 3.5rem;
       font-weight: 600;
       color: var(--white);
     }
 
     h3 {
-      font-size: 1.1rem;
+      font-size: 2rem;
       font-weight: 600;
     }
 
     p {
-      font-size: 1rem;
+      font-size: 1.8rem;
       color: var(--white);
     }
   }
