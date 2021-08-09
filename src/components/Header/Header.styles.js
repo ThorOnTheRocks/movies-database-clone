@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background: var(--darkGrey);
+  background: var(--darkYellow);
   padding: 0 2rem;
 `;
 
@@ -12,14 +12,19 @@ export const Content = styled.div`
   max-width: var(--maxWidth);
   padding: 2rem 0;
   margin: 0 auto;
-`;
+  
 
-export const LogoImg = styled.img`
-  width: 25rem;
+  .heading {
+    font-family: 'Style Script', cursive;
+    font-size: 4rem;
+    
 
-  @media screen and (max-width: 500px) {
-    width: 20rem;
+    @media screen and (max-width: 500px) {
+    font-size: 3rem;
   }
+  }
+
+  
 `;
 
 export const MDBLogoImg = styled.img`

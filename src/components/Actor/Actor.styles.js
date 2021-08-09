@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   color: var(--white);
-  background: var(--darkGrey);
+  background: var(--darkYellow);
   border-radius: 2rem;
   padding: 5px;
   text-align: center;
