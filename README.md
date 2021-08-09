@@ -71,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # movies-database-clone
 
 Creating a web application similar to IMDB using React
+Hosted using Netlify: https://romantic-montalcini-1bfac7.netlify.app/
