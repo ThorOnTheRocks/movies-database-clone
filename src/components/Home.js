@@ -24,7 +24,6 @@ const Home = () => {
     error,
     searchTerm,
     setSearchTerm,
-    isLoadingMore,
     setIsLoadingMore
   } = useHomeFetch();
   console.log(state);
