@@ -10,8 +10,21 @@ export const Content = styled.div`
   align-items: center;
   justify-content: space-between;
   max-width: var(--maxWidth);
-  padding: 2rem 0;
+  padding: 1rem 0;
   margin: 0 auto;
+  color: var(--white);
+
+  a  {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 3rem;
+  }
+
+  .loggedin {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 2rem;
+  }
   
 
   .heading {
