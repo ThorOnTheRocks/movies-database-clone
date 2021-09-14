@@ -3,17 +3,34 @@ import { Link } from 'react-router-dom';
 
 import TMDBLogo from '../../images/tmdb_logo.svg';
 
-import { Wrapper, Content, MDBLogoImg } from './Header.styles';
+import { Wrapper, Content } from './Header.styles';
 
-const Header = () => (
-  <Wrapper>
-    <Content>
-      <Link to='/' style={{ textDecoration: 'none' }}>
-        <h1 className="heading">MoviesDB</h1>
-      </Link>
-      <MDBLogoImg src={TMDBLogo} alt='tmdbb-logo' />
-    </Content>
-  </Wrapper>
-)
+//Context
+import { Context } from '../../context';
+import { useContext } from 'react/cjs/react.development';
+
+const Header = () => {
+  const [user] = useContext(Context);
+
+  return (
+    <Wrapper>
+      <Content>
+        <Link to='/' style={{ textDecoration: 'none' }}>
+          <h1 className="heading">MoviesDB</h1>
+        </Link>
+        {user ? (
+          <span className="loggedin">{user.username}</span>
+        ) : (
+          <Link to="/login">
+            <span className="login">Login</span>
+          </Link>
+        )
+        }
+      </Content>
+    </Wrapper>
+  )
+}
+
+
 
 export default Header;
