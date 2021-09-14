@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import TMDBLogo from '../../images/tmdb_logo.svg';
-
 import { Wrapper, Content } from './Header.styles';
 
 //Context

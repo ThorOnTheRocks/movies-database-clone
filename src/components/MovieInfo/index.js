@@ -23,7 +23,7 @@ const MovieInfo = ({ movie }) => {
   const [user] = useContext(Context);
 
   const handleRating = async value => {
-    const rate = await API.rateMovie(user.sessionId, movie.id, value);
+    await API.rateMovie(user.sessionId, movie.id, value);
   }
 
   return (
