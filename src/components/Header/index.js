@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Wrapper, Content } from './Header.styles';
 
 //Context
 import { Context } from '../../context';
-import { useContext } from 'react/cjs/react.development';
+
 
 const Header = () => {
-  const { user } = useContext(Context);
+  const [user] = useContext(Context);
 
   return (
     <Wrapper>
