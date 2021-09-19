@@ -10,6 +10,10 @@ export const Wrapper = styled.div`
   padding: 2rem;
   color: var(--darkYellow);
 
+  label {
+    font-size: 3rem;
+  }
+
   input {
     width: 100%;
     height: 3rem;
