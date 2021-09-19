@@ -70,5 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # movies-database-clone
 
-Creating a web application similar to IMDB using React
-Hosted using Netlify: https://romantic-montalcini-1bfac7.netlify.app/
+Web app where user can browse and search for movies and read all related infos. They can create their personal page and start rating movies as well.
+The web application is using th MDB API to fetch from their db.
+Hosted using Netlify: https://react-movie-database-best.netlify.app/
